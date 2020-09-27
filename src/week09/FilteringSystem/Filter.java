@@ -10,8 +10,8 @@ public class Filter {
 		return badWords.length;
 	}
 
-	public static String getBadWord(int i) {
-		return badWords[i];
+	public static String[] getBadWord() {
+		return badWords;
 	}
 
 }

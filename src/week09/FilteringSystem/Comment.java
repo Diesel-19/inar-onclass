@@ -15,7 +15,7 @@ public class Comment {
 	public boolean check() {
 		for (int i = 0; i < Filter.length(); i++) {
 			for (int j = 0; j < getWords().length; j++) {
-				if (Filter.getBadWord(i).equalsIgnoreCase(getWords()[j])) {
+				if (Filter.getBadWord()[i].equalsIgnoreCase(getWords()[j])) {
 					return false;
 				}
 			}
